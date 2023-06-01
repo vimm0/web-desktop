@@ -1,7 +1,3 @@
-
-    <!-- "electron-squirrel-startup": "^1.0.0", -->
-
-
 # Web Desktop
 
 ## Description
