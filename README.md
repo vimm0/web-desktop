@@ -13,6 +13,9 @@ Steps involved:
 
 This project is an open-source initiative aimed at building packagable and distributable web application with the help of pyinstaller and electron. This project is meant as Proof-Of-Concept but you could modify backend and add functionality to electorn wrapper and builder as much complex as possible as per your requirement.
 
+## BUG
+- After multiple tries then only django server start when opened with electorn.
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -53,9 +56,9 @@ After running commands above, open your web browser and visit [http://localhost:
 From the root of this repo, steps involved to produce electron application with django backend is as follows:
 
 ```
-cd webdesk-de
-npm install
-npm run dist
+$ cd webdesk-de
+$ npm install
+$ npm run dist
 ```
 
 [electron](https://www.electronjs.org/) produces `dist` directory where all the packaged application resides. You can now open application in `dist` directory.
