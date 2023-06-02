@@ -1,0 +1,6 @@
+backend/*/__pycache__
+backend/backend/__pycache__/
+backend/env
+backend/db.sqlite3
+backend/build
+backend/dist
