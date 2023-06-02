@@ -4,3 +4,6 @@ backend/env
 backend/db.sqlite3
 backend/build
 backend/dist
+webdesk-de/node_modules/
+webdesk-de/package-lock.json
+webdesk-de/dist

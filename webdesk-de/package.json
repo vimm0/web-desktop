@@ -1,0 +1,30 @@
+{
+    "name": "webdesk-de",
+    "version": "1.0.0",
+    "description": "Desktop app for web",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "dist": "electron-builder"
+    },
+    "author": "Sandesh Rana",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^25.0.1",
+      "electron-builder": "^23.6.0"
+    },
+    "build": {
+      "appId": "com.webdesk_de.app",
+      "win": {
+        "target": "portable"
+      },
+      "portable": {
+        "unicode": false,
+        "artifactName": "webdesk_de.exe"
+      }
+    },
+    "dependencies": {
+      "tree-kill": "^1.2.2"
+    }
+  }
+  
