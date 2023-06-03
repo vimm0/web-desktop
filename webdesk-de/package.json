@@ -2,7 +2,7 @@
     "name": "webdesk-de",
     "version": "1.0.0",
     "description": "Desktop app for web",
-    "main": "main.js",
+    "main": "whatsapp.js",
     "scripts": {
       "start": "electron .",
       "dist": "electron-builder"
