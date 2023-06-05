@@ -1,0 +1,23 @@
+{
+    "name": "whatsapp",
+    "version": "1.0.0",
+    "description": "Desktop app for whatsapp web",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "dist": "electron-builder",
+        "pack:mac": "electron-packager . Whatsapp --platform=darwin --arch=x64   --icon=assets/wa.icns --overwrite --ignore=/out/  --prune=true --out=out",
+        "pack:lin": "electron-packager . Whatsapp --platform=linux  --arch=x64  --icon=assets/wa.png -overwrite --ignore=/out/ --prune=true --out=out",
+        "pack:win": "electron-packager . Whatsapp --platform=win32  --arch=ia32  --icon=assets/wa.ico  --overwrite --ignore=/out/ --prune=true --out=out "
+    },
+    "author": "Sandesh Rana",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^25.0.1",
+        "electron-builder": "^23.6.0",
+        "electron-packager": "^17.1.1"
+    },
+    "dependencies": {
+        "tree-kill": "^1.2.2"
+    }
+}

@@ -5,7 +5,8 @@ backend/db.sqlite3
 backend/build
 backend/dist
 backend/webdeskbackend.spec
-webdesk-de/node_modules/
-webdesk-de/package-lock.json
+node_modules/
+package-lock.json
+out/
 webdesk-de/dist
 webdesk-de/back/*

@@ -2,29 +2,20 @@
     "name": "webdesk-de",
     "version": "1.0.0",
     "description": "Desktop app for web",
-    "main": "whatsapp.js",
+    "main": "main.js",
     "scripts": {
-      "start": "electron .",
-      "dist": "electron-builder"
+        "start": "electron .",
+        "dist": "electron-builder",
+        "pack:lin": "electron-packager . webdesk --platform=linux  --arch=x64   -overwrite --prune=true --out=out"
     },
     "author": "Sandesh Rana",
     "license": "ISC",
     "devDependencies": {
-      "electron": "^25.0.1",
-      "electron-builder": "^23.6.0"
-    },
-    "build": {
-      "appId": "com.webdesk_de.app",
-      "win": {
-        "target": "portable"
-      },
-      "portable": {
-        "unicode": false,
-        "artifactName": "webdesk_de.exe"
-      }
+        "electron": "^25.0.1",
+        "electron-builder": "^23.6.0",
+        "electron-packager": "^17.1.1"
     },
     "dependencies": {
-      "tree-kill": "^1.2.2"
+        "tree-kill": "^1.2.2"
     }
-  }
-  
+}
