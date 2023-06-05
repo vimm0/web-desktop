@@ -6,7 +6,9 @@
     "scripts": {
         "start": "electron .",
         "dist": "electron-builder",
-        "pack:lin": "electron-packager . webdesk --platform=linux  --arch=x64   -overwrite --prune=true --out=out"
+        "pack:mac": "electron-packager . Webdesk --platform=darwin --arch=x64   --overwrite --ignore=/out/  --prune=true --out=out",
+        "pack:lin": "electron-packager . Webdesk --platform=linux  --arch=x64 -overwrite --ignore=/out/ --prune=true --out=out",
+        "pack:win": "electron-packager . Webdesk --platform=win32  --arch=ia32  --overwrite --ignore=/out/ --prune=true --out=out "
     },
     "author": "Sandesh Rana",
     "license": "ISC",
