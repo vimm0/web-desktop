@@ -58,10 +58,15 @@ From the root of this repo, steps involved to produce electron application with 
 ```
 $ cd webdesk-de
 $ npm install
-$ npm run dist
+$ npm run pack:lin
 ```
 
-[electron](https://www.electronjs.org/) produces `dist` directory where all the packaged application resides. You can now open application in `dist` directory.
+[electron](https://www.electronjs.org/) produces `out` directory where all the packaged application resides. You can now open application in `out` directory.
+
+To open produced application in linux
+```
+$ ./out/Webdesk-linux-x64/Webdesk
+```
 
 [Reference](Reference)
 
